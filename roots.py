@@ -1,4 +1,5 @@
 from sys import argv
+from math import exp,log
 
 # NOTE: You may use this function only for integer numbers
 # k is num, n is the 'n' in nth root
@@ -11,7 +12,7 @@ def iroot(k, n):
 	return s
 
 def lroot(x, n):
-	 X = exp(log(n)/x)
+	 return exp(log(n)/x)
 
 def nroot(n, x):
 	return x**(1./float(n))
